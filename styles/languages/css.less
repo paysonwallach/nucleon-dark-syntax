@@ -1,0 +1,65 @@
+.syntax--css {
+    .syntax--support {
+        &.syntax--constant {
+            color: @cyan;
+        }
+
+        &.syntax--property-name {
+            color: @teal;
+        }
+    }
+
+    .syntax--keyword {
+        &.syntax--unit {
+            color: @strong-orange;
+        }
+    }
+
+    .syntax--constant {
+        &.syntax--numeric {
+            color: @yellow;
+        }
+
+        &.syntax--color {
+            color: @yellow;
+
+            .syntax--punctuation {
+                color: currentColor;
+            }
+        }
+    }
+
+    .syntax--punctuation {
+        &.syntax--definition.syntax--entity {
+            color: @gray;
+        }
+
+        &.syntax--delimiter {
+            color: @cyan;
+
+            + .syntax--constant.syntax--numeric:not(.syntax--color) {
+                color: @strong-orange;
+            }
+        }
+
+        &.syntax--section {
+            &.syntax--bracket {
+                color: @dark-gray;
+            }
+        }
+    }
+
+    .syntax--entity {
+        &.syntax--tag {
+            color: @red;
+        }
+
+        &.syntax--id {
+            color: @violet;
+        }
+
+        &.syntax--other.syntax--attribute-name.syntax--parent-selector > .syntax--punctuation.syntax--definition {
+            color: @cyan;
+        }
+    }
+}

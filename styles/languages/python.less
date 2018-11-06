@@ -1,0 +1,27 @@
+.syntax--source.syntax--python {
+    .syntax--keyword.syntax--operator {
+        color: @strong-orange;
+    }
+
+    .syntax--keyword.syntax--operator {
+        &.syntax--assignment {
+            color: @very-dark-gray;
+        }
+
+        &.syntax--logical.syntax--python {
+            color: @violet;
+        }
+    }
+
+    .syntax--meta.syntax--function-call {
+        color: @blue;
+
+        &.syntax--arguments {
+            color: @cyan;
+        }
+    }
+
+    .syntax--variable.syntax--parameter {
+        color: @orange;
+    }
+}
