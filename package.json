@@ -2,7 +2,7 @@
   "name": "nucleon-dark-syntax",
   "theme": "syntax",
   "version": "0.4.0",
-  "description": "A dark syntax theme based on One Dark theme for Atom, built with Google's Material Design palette.",
+  "description": "A dark syntax theme based on Atom's One Dark theme, built with Google's Material Design palette.",
   "keywords": [
     "material",
     "design",
@@ -11,7 +11,7 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/paysonwallach/element-light-syntax",
+  "repository": "https://github.com/paysonwallach/nucleon-dark-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
