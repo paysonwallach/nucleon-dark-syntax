@@ -1,7 +1,7 @@
 {
   "name": "nucleon-dark-syntax",
   "theme": "syntax",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "A dark syntax theme based on Atom's One Dark theme, built with Google's Material Design palette.",
   "keywords": [
     "material",
